@@ -1,0 +1,63 @@
+To install and run Flutter, your development environment must meet these minimum requirements:
+
+    # Operating Systems: Windows 7 SP1 or later (64-bit)
+
+    # Enough Disk Space
+
+    # Tools: Flutter depends on these tools being available in your environment.
+        Windows PowerShell 5.0 or newer (this is pre-installed with Windows 10)
+
+        Git for Windows 2.x, with the Use Git from the Windows Command Prompt option.
+
+        If Git for Windows is already installed, make sure you can run git commands from the command prompt or PowerShell.
+
+# get The sdk from https://flutter.dev/docs/get-started/install/windows
+# Extract the zip file and place the contained flutter in the desired installation location for the Flutter SDK (Prefer making a new folder dirrectly in C drive)
+# Edit environment variables for your account.
+
+Download android studio from here https://developer.android.com/studio/
+
+Dart installation:
+    Start Android Studio.
+    Open plugin preferences (Configure > Plugins as of v3.6.3.0 or later).
+    Select the Flutter plugin and click Install.
+    Click Yes when prompted to install the Dart plugin.
+    Click Restart when prompted.
+
+set flutter package loaction for android studio to find the right location
+
+You are good to go!
+
+How to run the application:
+if you want to see the mobile screens you'll have to change a few things in the code.
+To directly see under development screen of one:one type these commands. 
+(This was still underdevelopment and you might see 2 3 bugs, but these are resolvable and can be resolved by anyone who knows flutter)
+cmds:
+    in your project root folder terminal run these cmds:
+    
+    flutter channel beta
+    flutter upgrade
+    flutter config --enable-web
+
+   You can run flutter doctor to see and debug any issue with flutter setup.  
+   
+   run this command to see the output in chrome browser
+   flutter run -d chrome
+
+NOTE THAT IF YOU WANT TO SEE ANY OTHER SCREEN YOU'LL HAVE TO CHANGE ROUTE GENERATOR CLASS AND RETURN WIDGETS ACCORDINGLY IN THE WEB HOME
+WIDGET.
+
+For any other query reach 
+https://flutter.dev/docs/get-started/web
+OR
+stackoverflow (it has a ton of good answers)
+   
+   
+   
+   
+   
+    
+    
+    
+
+
